@@ -1,0 +1,38 @@
+.backgroundDivDetails{
+    background-image: url("../assets/_ef8957d5-60da-4d89-9853-7dd12c16ad46.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.innerDivDetails{
+    width: 100%;
+    min-height: 632px;
+    backdrop-filter: blur(7px);
+    background: rgb(74 111 255 / 23%);
+    padding: 60px 70px;
+}
+
+.Mui-disabled{
+    -webkit-text-fill-color: #000 !important;
+    font-weight: 549 !important;
+    font-size: 17px !important;
+}
+
+.headingDetails{
+    text-align: center;
+    color: #000;
+    font-size: 33px;
+    font-weight: 900;
+    margin-top: 15px !important;
+}
+
+
+
+@media (max-width:598px) {
+    .innerDivDetails{
+        padding: 60px 0px;
+    }
+}

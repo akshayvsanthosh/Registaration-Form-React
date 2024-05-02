@@ -1,0 +1,46 @@
+.backgroundDiv{
+    background-image: url("../assets/background.avif");
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerDiv{
+    width: 71%;
+    height: 84%;
+    backdrop-filter: blur(7px);
+    background-color: #f0f8ff36;
+    border-radius: 20px;
+    padding-bottom: 55px;
+    background: rgb(74, 111, 255);
+    background: linear-gradient(159deg, rgb(74 111 255 / 11%) 7%, rgb(23 125 228 / 74%) 45%, rgb(100 233 255 / 26%) 84%);
+}
+
+
+.heading{
+    text-align: center;
+    color: #000;
+    font-size: 33px;
+    font-weight: 900;
+    margin-top: 15px !important;
+}
+
+.mainGrid{
+    width: 100% !important;
+    margin-left: 0px !important;
+}
+
+fieldset{
+    border: solid 2px rgb(0, 0, 0) !important;
+}
+
+label{
+    color: black !important;
+    font-weight: 549 !important;
+    font-size: 17px !important;
+}
